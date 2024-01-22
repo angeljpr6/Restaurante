@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.usabilidadmejorada.InterfazPrincipal">
+   <children>
+      <Button fx:id="hamButton" layoutX="39.0" layoutY="29.0" mnemonicParsing="false" onAction="#sumarHam" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="aguaButton" layoutX="116.0" layoutY="29.0" mnemonicParsing="false" onAction="#sumarAgua" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="cervButton" layoutX="272.0" layoutY="29.0" mnemonicParsing="false" onAction="#sumarCerv" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="postreButton" layoutX="272.0" layoutY="159.0" mnemonicParsing="false" onAction="#sumarPostre" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="ensalButton" layoutX="39.0" layoutY="159.0" mnemonicParsing="false" onAction="#sumarEnsal" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="perritoButton" layoutX="116.0" layoutY="159.0" mnemonicParsing="false" onAction="#sumarPerrit" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="sandwButton" layoutX="196.0" layoutY="159.0" mnemonicParsing="false" onAction="#sumarSandw" prefHeight="57.0" prefWidth="57.0" />
+      <Button fx:id="refresButton" layoutX="196.0" layoutY="29.0" mnemonicParsing="false" onAction="#sumarRefres" prefHeight="57.0" prefWidth="57.0" />
+      <Button layoutX="39.0" layoutY="95.0" mnemonicParsing="false" onAction="#menosHam" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="116.0" layoutY="95.0" mnemonicParsing="false" onAction="#menosAgua" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="196.0" layoutY="95.0" mnemonicParsing="false" onAction="#menosRefres" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="272.0" layoutY="95.0" mnemonicParsing="false" onAction="#menosCerv" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="39.0" layoutY="224.0" mnemonicParsing="false" onAction="#menosEnsal" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="116.0" layoutY="224.0" mnemonicParsing="false" onAction="#menosPerrito" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="196.0" layoutY="224.0" mnemonicParsing="false" onAction="#menosSandw" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Button layoutX="272.0" layoutY="224.0" mnemonicParsing="false" onAction="#menosPostre" prefHeight="25.0" prefWidth="57.0" text="--" />
+      <Label layoutX="39.0" layoutY="285.0" text="Total Sin IGIC" />
+      <Label layoutX="329.0" layoutY="282.0" text="IGIC" />
+      <TextField fx:id="totSinImp" editable="false" layoutX="145.0" layoutY="281.0" />
+      <TextField fx:id="impuestos" editable="false" layoutX="435.0" layoutY="278.0" />
+      <Label layoutX="329.0" layoutY="314.0" text="Total Con IGIC" />
+      <TextField fx:id="total" editable="false" layoutX="435.0" layoutY="310.0" />
+      <Button layoutX="39.0" layoutY="323.0" mnemonicParsing="false" onAction="#aceptar" text="Aceptar" />
+   </children>
+</Pane>
